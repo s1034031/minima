@@ -286,4 +286,11 @@ table {
 
 p {
 	text-align: justify;
+
+	@include media-query($on-palm) {
+		text-align: left;
+		hypens: auto;
+	}
 }
+
+
