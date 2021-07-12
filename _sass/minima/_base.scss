@@ -289,7 +289,7 @@ p {
 
 	@include media-query($on-palm) {
 		text-align: left;
-		hypens: auto;
+		hyphens: auto;
 	}
 }
 
